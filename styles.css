@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b65a7;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.parent {
+  background-color: #c6cdd5;
+  width: 800px;
+  height: 264px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.child {
+  background-color: #fff;
+  width: 245.33px;
+  border: 1px solid #f1f1f1;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userimg {
+  height: 64px;
+  object-fit: cover;
+}
+.username {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #414f58;
+  margin-top: 18px;
+}
+.location {
+  display: flex;
+  color: #c6cdd5;
+  gap: 5px;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 13px;
+}
+
+.border {
+  border-top: 1px solid #c6cdd5;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.followerfollowing {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 13px;
+  padding: 0 8px;
+}
+.border2 {
+  width: 1px;
+  border-right: 1px solid #c6cdd5;
+}
+.follower,
+.following {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.followername,
+.followingname {
+  color: #c6cdd5;
+}
+
+.followervalue,
+.followingvalu {
+  font-weight: 600;
+}
